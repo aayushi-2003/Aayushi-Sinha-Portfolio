@@ -10,3 +10,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.gradient,
+.active {
+  background: linear-gradient(
+    92.23deg,
+    #3e62e7,
+    #3bace2,
+    #9dd3ed 
+  );
+}
+
+.active {
+  color: #fff;
+  border-radius: 100%;
+}
+
+
+@layer base{
+  body{
+    @apply font-primary text-lg text-white; 
+  }
+  .section {
+    @apply py-8 lg:py-24 lg:h-screen flex items-center;
+  }
+}
