@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import Nav from './components/Nav';
+import Header from './components/Header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-site relative">
+      <div className="gradient1 h-[238px] w-[266px] rounded-[266px] bg-[#1879D3] blur-[175px] backdrop:blur[250px] absolute top-[185px] left-[84px]"></div>
+      <div className="gradient2 h-[234px] w-[225px] rounded-[236px] bg-[#7518D3] blur-[150px] backdrop:blur[250px] absolute right-[36px] top-[372px]"></div>
+      <div className="gradient3 h-[238px] w-[266px] rounded-[266px] bg-[#7CDFEC] blur-[175px] backdrop:blur[250px] absolute right-[266px] top-[512px]"></div>
+      <Header/>
+      <Nav/>
+      <div className='h-[4000px]'></div>
     </div>
   );
 }
