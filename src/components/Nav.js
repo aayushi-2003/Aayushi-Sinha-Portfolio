@@ -11,7 +11,7 @@ const Nav = () => {
       <div className="container mx-auto">
         {/* nav inner */}
         <div className="w-full bg-black/20 h-[96px] backdrop-blur-2xl rounded-full max-w-[460px] mx-auto px-5 py-3 flex justify-between text-2xl text-white/50">
-          <Link to='home' activeClass="active" smooth={true} spy={true} className="cursor-pointer w-[70px] h-[70px] flex items-center justify-center">
+          <Link to='home' offset={-200} activeClass="active" smooth={true} spy={true} className="cursor-pointer w-[70px] h-[70px] flex items-center justify-center">
             <BiHomeAlt/>
           </Link>
           <Link to='about' activeClass="active" smooth={true} spy={true} className="cursor-pointer w-[70px] h-[70px] flex items-center justify-center">
