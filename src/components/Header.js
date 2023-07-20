@@ -10,11 +10,8 @@ const Header = () => {
           <a href="#">
             <h1 className="font-primary text-[35px]">Aayushi Sinha</h1>
           </a>
-          {/* <Link to='contact' activeClass="active" smooth={true} spy={true} className="cursor-pointer w-[70px] h-[70px] flex items-center justify-center">
-            <BsEnvelopeFill/>
-          </Link> */}
           <Link to='contact' smooth={true} className="cursor-pointer">
-          <button className="text-[20px] btn btn-sm">Contact Me</button>
+          <button className="text-[20px] btn btn-sm mr-6">Contact Me</button>
           </Link>
         </div>
       </div>
