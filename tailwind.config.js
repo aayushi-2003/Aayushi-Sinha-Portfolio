@@ -12,7 +12,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        site: '#000D2E',
+        site: '#070A2E',
+        blue_med: '#3e62e7',
       },
     },
   },
