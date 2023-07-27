@@ -19,7 +19,6 @@ function App() {
       <Projects/>
       <Publications/>
       <Contact/>
-      <div className='h-[100vh]'></div>
     </div>
   );
 }

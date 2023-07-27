@@ -8,7 +8,7 @@ const Projects = () => {
         <div className="container mx-auto">
           <div className="row">
             <div className="col flex flex-col items-center justify-center gap-12 ">
-              <h2 className="text-[60px]">Projects</h2>
+              <h2 className="text-[60px] ">Projects</h2>
               <AnimatedTabs/>
             </div>
             <div>

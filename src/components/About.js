@@ -50,7 +50,10 @@ const About = () => {
           </Canvas>
           </div>
             <h1 className="text-[60px] z-10">About Me</h1>
-            <p className="text-justify z-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, vel? Minima eaque quam vel iste id consequatur accusamus molestiae, quisquam aspernatur ut, inventore veniam, reprehenderit aliquid blanditiis in autem optio.</p>
+            <p className="text-justify z-10">Hey there! I'm Aayushi, a passionate learner exploring the realms of Web Development and UI/UX Design. <br /><br />
+            Growing up, I developed a deep love for stories, whether found in books, movies, or shared through people's experiences. <br /><br />
+            As an artist at heart and a tech enthusiast, I find inspiration in these stories, infusing them into my creative process to craft fascinating designs and innovative solutions.
+            </p>
           </motion.div>
         </div>
       </div>
