@@ -34,7 +34,7 @@ const Contact = () => {
              variants={fadeIn('left', 0.3)} 
              initial="hidden" whileInView={'show'} 
              viewport={{once:false, amount: 0.3}} 
-             className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start'>
+             className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-12 mb-16 p-6 items-start'>
               <input type="text" 
               className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-blue-500 transition-all' 
               placeholder='Your Name'
