@@ -39,7 +39,7 @@ const Home = () => {
               <motion.div variants={fadeIn('up', 0.6)} initial="hidden" whileInView={'show'} viewport={{once:false, amount: 0.7}} className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
               <Link to='projects' smooth={true} className="cursor-pointer">                <button className="btn btn-lg h-10 w-36">Projects</button>
               </Link>
-                <a href={resumeURL} target="_blank" className="flex items-center hover:border-b-[1px]">View My Resume <span className="ml-2"><AiOutlineRight/></span></a>
+                <a href={resumeURL} target="_blank" className="flex items-center hover:border-b-[1px] hover:text-blue_med">View My Resume <span className="ml-2 mb-1"><AiOutlineRight/></span></a>
               </motion.div>
 
           </div>
