@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://aayushi-2003.github.io/Aayushi-Sinha-Portfolio",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@react-three/drei": "^9.79.2",
@@ -18,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -40,6 +43,7 @@
   },
   "devDependencies": {
     "framer-motion": "^8.5.5",
+    "gh-pages": "^5.0.0",
     "react-countup": "^6.4.0",
     "react-icons": "^4.10.1",
     "react-intersection-observer": "^9.4.1",

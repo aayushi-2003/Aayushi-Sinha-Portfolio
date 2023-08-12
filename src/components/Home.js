@@ -11,8 +11,8 @@ import {OrbitControls, MeshDistortMaterial, Sphere} from "@react-three/drei";
 const Home = () => {
   const resumeURL = 'https://drive.google.com/file/d/1L45WfwHEODbuMh5jET4KFL-_q5jVahqS/view?usp=sharing';
     return (
-      <section id="home" className="section min-h-[85vh] lg:min-h-[78vh] flex items-center">
-        <div className="container mx-auto z-20 pb-44">
+      <section id="home" className="section min-h-[55vh] lg:min-h-[78vh] flex items-center pt-20 lg:pt-0">
+        <div className="container mx-auto z-20 pb-0 lg:pb-44">
           <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12 ">
 
           {/* Name and headings */}

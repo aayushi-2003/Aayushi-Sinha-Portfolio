@@ -1,6 +1,7 @@
 import projectImg1 from './projectImg1.jpg';
 import SoulFit from './SoulFit.jpg';
 import dreamHome from './dreamHouse.png';
+import restaurant from './restaurant.jpg'
 
 export const projectDetails ={
     WebDev:[
@@ -20,8 +21,8 @@ export const projectDetails ={
 
     },
     {title: "Gericht Restaurant", 
-    description: "A static reactJS website - personal project",
-    img:   projectImg1,
+    description: "A static ReactJS website for a restaurant - personal project",
+    img:   restaurant,
     code_design_link:'https://aayushi-2003.github.io/Restaurant-website/',
     live_link:'https://aayushi-2003.github.io/Restaurant-website/',
     tools: ["CSS", "ReactJS"]
