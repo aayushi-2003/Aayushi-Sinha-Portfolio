@@ -33,7 +33,7 @@ const About = () => {
           </motion.div>
 
           <motion.div variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'}className="about-details flex flex-col items-end justify-center  text-right gap-16 relative order-1 lg:order-2">
-            <div className="absolute z-0 -top-16 -right-[120px]">
+            <div className="absolute z-0 -top-7 md:-top-16 -right-[120px] h-20 md:h-auto">
           <Canvas >
             <Suspense fallback={null}>
               <OrbitControls enableZoom={false}  />
@@ -50,10 +50,12 @@ const About = () => {
             </Suspense>
           </Canvas>
           </div>
-            <h1 className="text-[50px] lg:text-[60px] z-10">About Me</h1>
-            <p className="text-justify z-10">Hey there! I'm Aayushi, a passionate learner exploring the realms of <span className="text-sky-300">Web Development</span> and <span className="text-sky-300">UI/UX Design.</span> <br /><br />
-            Growing up, I developed a deep love for stories, whether found in books, movies, or shared through people's experiences. <br /><br />
-            As an artist at heart and a tech enthusiast, I find inspiration in these stories, infusing them into my creative process to craft fascinating designs and innovative solutions.
+            <h1 className="text-[30px] md:text-[50px] lg:text-[60px] z-10">About Me</h1>
+            <p className="text-base md:text-lg text-justify z-10 leading-normal">
+              Hey there! I'm Aayushi, a passionate learner exploring the realms of 
+              <span className="text-sky-300"> Web Development</span> and <span className="text-sky-300">UI/UX Design.</span> <br /><br />
+              Growing up, I developed a deep love for stories, whether found in books, movies, or shared through people's experiences. <br /><br />
+              As an artist at heart and a tech enthusiast, I find inspiration in these stories, infusing them into my creative process to craft fascinating designs and innovative solutions.
             </p>
           </motion.div>
         </div>

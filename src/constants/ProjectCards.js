@@ -8,7 +8,7 @@ import {IoMdOpen} from 'react-icons/io'
 export default function ProjectCards({projectSub}){
     const sub = projectSub;
     return(
-        <div className='flex flex-row gap-8 mx-auto flex-wrap justify-center items-center relative top-[-70px]'>
+        <div className='flex flex-row gap-8 mx-auto flex-wrap justify-center items-start relative top-[-70px]'>
             {projectDetails[sub].map((project, i)=>(
                 //individual cards
                 // <motion.div
@@ -41,12 +41,12 @@ export default function ProjectCards({projectSub}){
                 initial={{opacity: 0, translateY: 40}}
                 whileInView={{opacity: 1, translateY: 0}}
                 viewport={{once:false, amount: 0.7}}
-                transition={{delay: i*0.2}} id="card" className='group h-[200px] max-w-[300px] rounded-xl relative flex flex-col mx-[10px] my-[20px] px-[20px] py-[20px] transition-all duration-300 ease-in-out hover:h-auto hover:top-20 bg-[#1d3355]'>
-                    <div id="imgBx" className='relative w-[260px] h-[260px] top-[-60px] '>
+                transition={{delay: i*0.2}} id="card" className='group h-auto top-20 max-w-[300px] rounded-xl relative flex flex-col mx-[10px] my-[20px] px-[20px] py-[20px]  bg-[#1d3355] '>
+                    <div id="imgBx" className='relative w-[260px] h-[110px] top-[-60px]'>
                         <img src={project.img} alt=""  className='max-w-full rounded-xl'/>
                     </div>
-                    <div id="content" className='relative mt-[-140px] py-[10px] px-[15px] text-white invisible opacity-0 transition-all duration-300 ease-in-out delay-100 group-hover:visible group-hover:opacity-100 group-hover:mt-[-140px] pt-14 '>
-                        <h2 className='text-[22px]'>{project.title}</h2>
+                    <div id="content" className='relative py-[10px] px-[15px] text-white  pt-14 '>
+                        <h2 className='text-[22px] mb-2'>{project.title}</h2>
                         <p className='text-base'>{project.description}</p>
                         <ul className='techUsed flex flex-wrap text-sm mt-4 text-slate-400'>
                             {project.tools.map((tool)=>(

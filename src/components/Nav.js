@@ -7,7 +7,8 @@ import {Link} from 'react-scroll';
 
 const Nav = () => {
     return (
-      <nav className="fixed bottom-2 lg:bottom-8 w-full z-50 ">
+      <nav >
+      <div className="fixed bottom-2 lg:bottom-8 w-full z-50 hidden md:block">
       <div className="container mx-auto">
         {/* nav inner */}
         <div className="w-full bg-black/20 h-[96px] backdrop-blur-2xl rounded-full max-w-[460px] mx-auto px-5 py-3 flex justify-between text-2xl text-white/50">
@@ -24,6 +25,7 @@ const Nav = () => {
             <BsEnvelopeFill/>
           </Link>
         </div>
+      </div>
       </div>
       </nav>
     );

@@ -16,9 +16,9 @@ function App() {
       <Header/>
       <Home/>
       <About/>
-      <Projects/>
+      {/*<Projects/>
       <Publications/>
-      <Contact/>
+      <Contact/> */}
     </div>
   );
 }
