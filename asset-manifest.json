@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/Aayushi-Sinha-Portfolio/static/css/main.b5af4e16.css",
-    "main.js": "/Aayushi-Sinha-Portfolio/static/js/main.2da3996d.js",
+    "main.css": "/Aayushi-Sinha-Portfolio/static/css/main.bddba6b8.css",
+    "main.js": "/Aayushi-Sinha-Portfolio/static/js/main.9bce9ce7.js",
+    "static/media/restaurant.jpg": "/Aayushi-Sinha-Portfolio/static/media/restaurant.790852e6e4aa7e409ae8.jpg",
     "static/media/projectImg1.jpg": "/Aayushi-Sinha-Portfolio/static/media/projectImg1.630d4cac896ffd72ba5b.jpg",
     "static/media/SoulFit.jpg": "/Aayushi-Sinha-Portfolio/static/media/SoulFit.6a78a677504ea51d5fc9.jpg",
+    "static/media/velocity.jpg": "/Aayushi-Sinha-Portfolio/static/media/velocity.1b9e1146ec2443b770e5.jpg",
+    "static/media/LW.jpeg": "/Aayushi-Sinha-Portfolio/static/media/LW.2cfb43999d8a6b54ac8a.jpeg",
     "static/media/dreamHouse.png": "/Aayushi-Sinha-Portfolio/static/media/dreamHouse.69ec1a5370a9bdb8e80d.png",
     "static/media/blogImg.png": "/Aayushi-Sinha-Portfolio/static/media/blogImg.58701e6df4d44e6f1279.png",
     "static/media/HomeImg.svg": "/Aayushi-Sinha-Portfolio/static/media/HomeImg.aa492a197244401ccff97e80f5fb1cfe.svg",
     "index.html": "/Aayushi-Sinha-Portfolio/index.html",
     "static/media/blogBlob.svg": "/Aayushi-Sinha-Portfolio/static/media/blogBlob.6d005284050041f3f5a06dc2e750787e.svg",
-    "main.b5af4e16.css.map": "/Aayushi-Sinha-Portfolio/static/css/main.b5af4e16.css.map",
-    "main.2da3996d.js.map": "/Aayushi-Sinha-Portfolio/static/js/main.2da3996d.js.map"
+    "main.bddba6b8.css.map": "/Aayushi-Sinha-Portfolio/static/css/main.bddba6b8.css.map",
+    "main.9bce9ce7.js.map": "/Aayushi-Sinha-Portfolio/static/js/main.9bce9ce7.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5af4e16.css",
-    "static/js/main.2da3996d.js"
+    "static/css/main.bddba6b8.css",
+    "static/js/main.9bce9ce7.js"
   ]
 }
