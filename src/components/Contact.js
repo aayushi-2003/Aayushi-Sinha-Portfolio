@@ -87,7 +87,12 @@ const Contact = () => {
             <button className='btn btn-lg' type='submit' value='Send' >{loading?'Sending...':'Send Message'}</button>
             </motion.form>
           </div>
+          <div className='flex items-center justify-between px-12'>
+        <p className='text-sm text-opacity-40'>Designed and Developed by Aayushi Sinha</p>
+        <p className='text-sm text-opacity-40'>aayushi.sinha1980@gmail.com</p>
         </div>
+        </div>
+        
       </div>
     );
   }

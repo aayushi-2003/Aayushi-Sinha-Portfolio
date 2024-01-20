@@ -14,6 +14,7 @@ module.exports = {
       colors: {
         site: '#070A2E',
         blue_med: '#3e62e7',
+        light_white: '#f7fcff'
       },
     },
   },

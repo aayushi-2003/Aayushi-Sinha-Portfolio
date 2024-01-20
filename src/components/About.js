@@ -9,8 +9,8 @@ const About = () => {
       <div id="about" className="section">
         <div className="container flex justify-between items-center mx-auto gap-8 lg:flex-row flex-col">
           <motion.div variants={fadeIn('down', 0.3)} initial="hidden" whileInView={'show'} className="card-container flex items-center justify-center p-10 order-2 lg:order-1">
-            <div className="h-[400px] w-[400px] bg-blue-400 rounded-3xl bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 -rotate-6 relative -left-10">
-            <div className="h-[380px] w-[380px] bg-white rounded-3xl absolute rotate-6 left-10 top-2 text-black p-16 ">
+            <div className="h-[200px] w-[200px] md:h-[400px] md:w-[400px] bg-blue-400 rounded-3xl bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 -rotate-6 relative -left-10">
+            <div className="h-[200px] w-[200px] md:h-[380px] md:w-[380px] bg-white rounded-3xl absolute rotate-6 left-10 top-2 text-black p-16 ">
               <h1 className="mb-4 text-[22px] font-semibold">Key Skills</h1>
               <div className="flex gap-10 font-medium leading-10 ">
               <ul className="tech-list">
@@ -33,7 +33,7 @@ const About = () => {
           </motion.div>
 
           <motion.div variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'}className="about-details flex flex-col items-end justify-center  text-right gap-16 relative order-1 lg:order-2">
-            <div className="absolute z-0 -top-7 md:-top-16 -right-[120px] h-20 md:h-auto">
+            <div className="absolute z-0 -top-7 md:-top-16 -right-[120px] h-20 md:h-auto invisible lg:visible">
           <Canvas >
             <Suspense fallback={null}>
               <OrbitControls enableZoom={false}  />

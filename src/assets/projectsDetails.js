@@ -3,15 +3,16 @@ import SoulFit from './SoulFit.jpg';
 import dreamHome from './dreamHouse.png';
 import restaurantImg from './restaurant.jpg';
 import velocityImg from './velocity.jpg';
+import LearnWave from './LW.jpeg';
 
 export const projectDetails ={
     WebDev:[
-    {title: "Project 1", 
-    description: "This is a project description",
-    img: projectImg1,
-    code_design_link:'#',
-    live_link:'#',
-    tools: ["JavaScript", "ReactJS"]
+    {title: "LearnWave", 
+    description: "An E-Learning Platform for Online Courses in Tech Field. This project is completely ideated, designed and developed by me.",
+    img: LearnWave,
+    code_design_link:'https://github.com/aayushi-2003/LearnWave',
+    live_link:'https://aayushi-2003.github.io/LearnWave/',
+    tools: ["HTML", "TailwindCSS", "JavaScript", "Figma"]
     },
     {title: "Velocity", 
     description: "The official website of Velocity - the coding club of IIIT Dharwad. I worked in a team to make the frontend and UI design of the website.",
@@ -22,7 +23,7 @@ export const projectDetails ={
 
     },
     {title: "Gericht Restaurant", 
-    description: "A static ReactJS website for a restaurant - personal project",
+    description: "The landing page for a restaurant website made using ReactJS. Static website with smooth scroll and responsive design.",
     img:   restaurantImg,
     code_design_link:'https://aayushi-2003.github.io/Restaurant-website/',
     live_link:'https://aayushi-2003.github.io/Restaurant-website/',

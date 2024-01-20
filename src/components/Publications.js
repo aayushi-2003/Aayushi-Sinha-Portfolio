@@ -16,7 +16,7 @@ const Publications = () => {
         <div className="container flex justify-center items-center mx-auto gap-20 relative">
           {/* Image div */}
           <motion.div variants={fadeIn('right', 0.3)} initial="hidden" whileInView={'show'} viewport={{once:false, amount: 0.3}} className='blogImage z-10 '>
-            <img src={blogImg} alt="" className='h-auto w-[35rem]'/>
+            <img src={blogImg} alt="" className='h-auto w-[35rem] rounded-xl'/>
           </motion.div>
           {/* Heading div */}
           <motion.div variants={fadeIn('left', 0.3)} initial="hidden" whileInView={'show'} viewport={{once:false, amount: 0.3}} className='flex flex-col items-start justify-center gap-6 pt-10 z-10 '>
