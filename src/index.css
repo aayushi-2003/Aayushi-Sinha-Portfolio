@@ -15,8 +15,7 @@ code {
   background: linear-gradient(
     92.23deg,
     #3e62e7,
-    #3bace2,
-    #9dd3ed 
+    #7518D3 
   );
 }
 
@@ -42,7 +41,7 @@ code {
   height: 100%;
   background: linear-gradient(
     92.23deg,
-    #1879D3, #031ED3
+    #7518D3, #031ED3
   );  
   border-radius: 10rem;
   z-index: -2;

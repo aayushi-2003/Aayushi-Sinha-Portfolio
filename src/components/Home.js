@@ -9,30 +9,30 @@ import {Canvas} from "@react-three/fiber";
 import {OrbitControls, MeshDistortMaterial, Sphere} from "@react-three/drei";
 
 const Home = () => {
-  const resumeURL = 'https://drive.google.com/file/d/1L45WfwHEODbuMh5jET4KFL-_q5jVahqS/view?usp=sharing';
+  const resumeURL = 'https://drive.google.com/file/d/1H1AzA_5ynkEYYhPgswzT0CiaSbKd2X-q/view?usp=drive_link';
   const behanceURL = 'https://www.behance.net/aayushisinha7';
     return (
-      <section id="home" className="section min-h-[55vh] lg:min-h-[78vh] flex items-center pt-20 lg:pt-0">
-        <div className="container mx-auto z-20 pb-0 lg:pb-32">
+      <section id="home" className="section flex items-center pt-20 lg:pt-0">
+        <div className="container mx-auto z-20 pb-10">
           <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12 ">
 
           {/* Name and headings */}
           <div className=" space-y-6 flex-1 text-center lg:text-left">
             {/* Name */}
-            <motion.h1 variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{once:false, amount: 0.7}} className="text-[30px] md:text-[50px] font-semibold leading-[0.8] lg:text-[60px] ">
+            <motion.h1 variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{once:false, amount: 0.7}} className="text-[30px] md:text-[50px] font-semibold leading-[0.8] lg:text-[44px] xl:text-[60px] ">
               AAYUSHI <span>SINHA</span>
             </motion.h1>
 
-            <motion.div variants={fadeIn('up', 0.4)} initial="hidden" whileInView={'show'} viewport={{once:false, amount: 0.7}} className="text-[20px] md:text-[24px] lg:text-[35px] uppercase leading-[1] font-semibold ">
+            <motion.div variants={fadeIn('up', 0.4)} initial="hidden" whileInView={'show'} viewport={{once:false, amount: 0.7}} className="text-[20px] md:text-[24px] lg:text-[28px] xl:text-[35px] uppercase leading-[1] font-semibold ">
               <span className="">I am a </span>
               <TypeAnimation sequence={[
                 'CSE Student', 2000,
                 'UI/UX Designer', 2000,
                 'Frontend Developer', 2000,
-              ]} speed={50} className="text-cyan-500" wrapper="span" repeat={Infinity}/>
+              ]} speed={50} className="text-purple_light" wrapper="span" repeat={Infinity}/>
             </motion.div>
 
-              <motion.p variants={fadeIn('up', 0.5)} initial="hidden" whileInView={'show'} viewport={{once:false, amount: 0.7}} className="mb-8 max-w-lg mx-auto lg:mx-0 text-[18px] md:text-md leading-7">
+              <motion.p variants={fadeIn('up', 0.5)} initial="hidden" whileInView={'show'} viewport={{once:false, amount: 0.7}} className="mb-8 max-w-lg mx-auto lg:mx-0 text-[16px] xl:text-[18px] leading-7">
               I am a 3rd Year Computer Science and Engineering Student from IIIT Dharwad. I love to design and build beautiful and responsive websites. I am a quick learner and always ready to learn new things. 
               </motion.p>
 
@@ -46,7 +46,6 @@ const Home = () => {
 
           {/* image/svg */}
           <motion.div variants={fadeIn('down', 0.5)} initial="hidden" whileInView={'show'} className="hidden lg:flex flex-1 max-w-[320px]  lg:max-w-[482px] relative h-[500px]"> 
-
           <Canvas >
             <Suspense fallback={null}>
               <OrbitControls enableZoom={false}  />
@@ -54,7 +53,7 @@ const Home = () => {
               <directionalLight position={[3, 2, 1]} />
               <Sphere args={[1, 100, 200]} scale={2.5}>
                 <MeshDistortMaterial
-                  color="#4EA3F1"
+                  color="#2591F4"
                   attach="material"
                   distort={0.5}
                   speed={2}
