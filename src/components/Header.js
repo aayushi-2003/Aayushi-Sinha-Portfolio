@@ -19,7 +19,7 @@ const Header = () => {
     
 
     return (
-      <header className="py-8">
+      <header className="py-8 ">
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           {/* Name */}
@@ -29,13 +29,14 @@ const Header = () => {
           <Link to='contact' smooth={true} className="cursor-pointer hidden md:block">
           <button className="text-[20px] btn btn-sm mr-6 ">Contact Me</button>
           </Link>
-                {/* Mobile View */}
+      
+      {/* Mobile View */}
 
       <div className="block md:hidden">
         <button onClick ={()=>setShowMenu((prev)=>!prev)} >
         {showMenu?(
           <div>
-            <HiOutlineXMark className="h-8 w-8 cursor-pointer" />
+            <HiOutlineXMark className="h-10 w-10 cursor-pointer fixed top-7 right-14 text-purple_light z-20" />
             </div>
         ):
         (
@@ -43,8 +44,8 @@ const Header = () => {
         )}
         </button>
         
-        <div className={showMenu?'absolute transform left-0 ease-in-out duration-500 top-0 z-50 h-full': 'absolute transform left-[-300px] ease-in-out duration-500 top-0 z-50 h-full'}>
-        <div className="bg-white h-full w-64   text-sky-900 flex flex-col items-center justify-center gap-10 text-[20px] font-medium  navbg ">
+        <div className={showMenu?'fixed transform left-0 ease-in-out duration-500 top-0 z-50 h-[100vh]': 'absolute transform left-[-300px] ease-in-out duration-500 top-0 z-50 h-[100vh]'}>
+        <div className="h-[100vh] w-64   text-sky-900 flex flex-col items-center justify-center gap-10 text-[20px] font-medium  navbg ">
           <NavLinks/>
         </div>
         </div>
