@@ -82,7 +82,7 @@ code {
     @apply font-primary text-lg text-light_white; 
   }
   .section {
-    @apply py-8 lg:py-20 lg:h-screen flex items-center;
+    @apply py-16 lg:py-20 lg:h-screen flex items-center;
   }
   .btn{
     @apply rounded-full text-light_white font-medium;
