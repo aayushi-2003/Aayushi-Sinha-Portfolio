@@ -6,6 +6,13 @@ body {
   margin: 0;
 }
 
+@media screen and (max-width: 500px) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

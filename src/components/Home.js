@@ -12,8 +12,8 @@ const Home = () => {
   const resumeURL = 'https://drive.google.com/file/d/1H1AzA_5ynkEYYhPgswzT0CiaSbKd2X-q/view?usp=drive_link';
   const behanceURL = 'https://www.behance.net/aayushisinha7';
     return (
-      <section id="home" className="section flex items-center py-16 lg:py-0">
-        <div className="container mx-auto z-20 pb-10">
+      <section id="home" className=" py-12 flex md:py-16 lg:py-6 items-center">
+        <div className="container mx-auto z-20 ">
           <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12 ">
 
           {/* Name and headings */}

@@ -52,7 +52,7 @@ const Contact = () => {
               <div className='md:px-10'>
                 <h4 className='text-base md:text-xl uppercase font-medium mb-2 tracking-wide text-purple_light text-center md:text-left'>Get In Touch</h4>
                 <div className='flex md:gap-3 flex-col items-center justify-center md:items-start'>
-                <h2 className='text-[28px] md:text-[35px] lg:text-[45px] xl:text-[70px] leading-none mb-4 text-center md:text-left'>
+                <h2 className='text-[28zpx] md:text-[35px] lg:text-[45px] xl:text-[70px] leading-none mb-4 text-center md:text-left'>
                   Let's work together
                   </h2>
                 <div className='media-icons flex gap-3'>

@@ -44,8 +44,8 @@ const Header = () => {
         )}
         </button>
         
-        <div className={showMenu?'fixed transform left-0 ease-in-out duration-500 top-0 z-50 h-[100vh]': 'absolute transform left-[-300px] ease-in-out duration-500 top-0 z-50 h-[100vh]'}>
-        <div className="h-[100vh] w-64   text-sky-900 flex flex-col items-center justify-center gap-10 text-[20px] font-medium  navbg ">
+        <div className={showMenu?'fixed transform left-0 ease-in-out duration-500 top-0 z-50 h-[100vh] w-[65%]': 'absolute transform left-[-300px] ease-in-out duration-500 top-0 z-50 h-[100vh]'}>
+        <div className="h-[100vh]  text-sky-900 flex flex-col items-center justify-center gap-10 text-[20px] font-medium  navbg ">
           <NavLinks/>
         </div>
         </div>
