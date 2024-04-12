@@ -13,20 +13,22 @@ const About = () => {
             <div className="h-[250px] md:h-[280px] lg:h-[340px] w-[250px] md:w-[280px] lg:w-[340px] xl:h-[380px] xl:w-[380px] bg-white rounded-3xl absolute rotate-6 left-10 top-2 text-black flex flex-col items-center justify-center ">
               <div>
               <h1 className="mb-2 lg:mb-4 text-[16px] md:text-[20px] lg:text-[25px]  font-semibold tracking-wider">Key Skills</h1>
-              <div className="flex gap-10 font-medium md:leading-8 lg:leading-10">
+              <div className="flex gap-10 md:gap-16 font-medium md:leading-8 lg:leading-10">
               <ul className="tech-list text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px]">
+                <li>Figma</li>
                 <li>ReactJS</li>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
-                <li>C</li>
+                <li>Git/GitHub</li>
               </ul>
               <ul className="tech-list text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px]">
-                <li>C++</li>
-                <li>Java</li>
+                <li>OpenCV</li>
                 <li>Python</li>
-                <li>Figma</li>
-                <li>Git/GitHub</li>
+                <li>Pandas</li>
+                <li>Tableau</li>
+                <li>C/C++</li>
+                <li>Java</li>
               </ul>
               </div>
               </div>
@@ -54,7 +56,7 @@ const About = () => {
           </div>
             <h1 className="text-[30px] md:text-[40px] lg:text-[50px] xl:text-[60px] z-10">About Me</h1>
             <p className="text-base xl:text-lg text-center md:text-justify z-10 leading-normal">
-              Hey there! I'm Aayushi, a passionate learner exploring the realms of 
+              Hey there! I'm Aayushi, a passionate learner exploring the realms of <span className="text-[#D6AFFE]">ML, Data Science</span>,
               <span className="text-[#D6AFFE]"> Web Development</span> and <span className="text-[#D6AFFE]">UI/UX Design.</span> <br /><br />
               Growing up, I developed a deep love for stories, whether found in books, movies, or shared through people's experiences. <br /><br />
               As an artist at heart and a tech enthusiast, I find inspiration in these stories, infusing them into my creative process to craft fascinating designs and innovative solutions.

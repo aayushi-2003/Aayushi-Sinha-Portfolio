@@ -1,9 +1,10 @@
-import projectImg1 from './projectImg1.jpg';
 import SoulFit from './SoulFit.jpg';
 import dreamHome from './dreamHouse.png';
 import restaurantImg from './restaurant.jpg';
 import velocityImg from './velocity.jpg';
 import LearnWave from './LW.jpeg';
+import sms from './sms-classifier.png';
+import opencv from './opencv.png'
 
 export const projectDetails ={
     WebDev:[
@@ -41,13 +42,27 @@ export const projectDetails ={
         },
     ],
     other:[
+        {title: "SMS Spam Classifier Model", 
+        description: "A classification model for SMS spam detection. Used Pandas for data cleaning and visualization, NLTK for text preprocessing and built the model using TF-IDF Vectorizer and Multinomial Naive Bayes.",
+        img: sms,
+        code_design_link:'https://github.com/aayushi-2003/sms-spam-classifier',
+        live_link:'https://sms-spam-classifier-jwfm.onrender.com/',
+        tools: ["Python", "Pandas", "NLTK"]
+        },
+        {title: "Virtual Keyboard", 
+        description: "Developed a virtual keyboard utilizing MediaPipe library for real time hand tracking and OpenCV for graphical interface. Implemented hand tracking functionality to detect and track user hand movements in real-time.",
+        img: opencv,
+        code_design_link:'https://github.com/aayushi-2003/Virtual-Keyboard',
+        live_link:'https://github.com/aayushi-2003/Virtual-Keyboard',
+        tools: ["Python", "MediaPipe", "OpenCV"]
+        },
         {title: "DreamHome Rental Business", 
         description: "A simple application made using Python GUI that empowers staff, property owners and renters to seamlessly carry out their rental business.",
         img: dreamHome,
         code_design_link:'https://github.com/aayushi-2003/DreamHouse-DBMS',
         live_link:'#',
         tools: ["Python", "Tkinter", "MySQL"]
-        }
+        },
     ]
 
 }

@@ -3,9 +3,9 @@ import {motion} from 'framer-motion';
 import ProjectCards from "./ProjectCards";
 
 let tabs = [
+    {id: 'other projects', label: 'ML & Data Science'},
     {id: 'web development', label: 'Web Development'},
     {id: 'ui/ux', label: 'UI/UX Design'},
-    {id: 'other projects', label: 'Other Projects'},
 ];
 
 export default function AnimatedTabs(){

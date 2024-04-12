@@ -9,7 +9,7 @@ import {Canvas} from "@react-three/fiber";
 import {OrbitControls, MeshDistortMaterial, Sphere} from "@react-three/drei";
 
 const Home = () => {
-  const resumeURL = 'https://drive.google.com/file/d/1H1AzA_5ynkEYYhPgswzT0CiaSbKd2X-q/view?usp=drive_link';
+  const resumeURL = 'https://drive.google.com/file/d/1c8APLaJsSlcnEe4o6OAax7B4q_NDuk1N/view?usp=sharing';
   const behanceURL = 'https://www.behance.net/aayushisinha7';
     return (
       <section id="home" className=" py-12 flex md:py-16 lg:py-6 items-center">
@@ -28,6 +28,7 @@ const Home = () => {
               <TypeAnimation sequence={[
                 'CSE Student', 2000,
                 'UI/UX Designer', 2000,
+                'ML Enthusiast', 2000,
                 'Frontend Developer', 2000,
               ]} speed={50} className="text-purple_light" wrapper="span" repeat={Infinity}/>
             </motion.div>
