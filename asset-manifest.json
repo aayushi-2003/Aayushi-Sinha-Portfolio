@@ -1,22 +1,41 @@
 {
   "files": {
-    "main.css": "/Aayushi-Sinha-Portfolio/static/css/main.fb2144ed.css",
-    "main.js": "/Aayushi-Sinha-Portfolio/static/js/main.02c74752.js",
+    "main.css": "/Aayushi-Sinha-Portfolio/static/css/main.fb52bccd.css",
+    "main.js": "/Aayushi-Sinha-Portfolio/static/js/main.3de24cf9.js",
     "static/media/restaurant.jpg": "/Aayushi-Sinha-Portfolio/static/media/restaurant.790852e6e4aa7e409ae8.jpg",
-    "static/media/projectImg1.jpg": "/Aayushi-Sinha-Portfolio/static/media/projectImg1.630d4cac896ffd72ba5b.jpg",
     "static/media/SoulFit.jpg": "/Aayushi-Sinha-Portfolio/static/media/SoulFit.6a78a677504ea51d5fc9.jpg",
     "static/media/velocity.jpg": "/Aayushi-Sinha-Portfolio/static/media/velocity.1b9e1146ec2443b770e5.jpg",
+    "static/media/opencv.png": "/Aayushi-Sinha-Portfolio/static/media/opencv.c2de2dc9aae57528fea7.png",
     "static/media/LW.jpeg": "/Aayushi-Sinha-Portfolio/static/media/LW.2cfb43999d8a6b54ac8a.jpeg",
     "static/media/dreamHouse.png": "/Aayushi-Sinha-Portfolio/static/media/dreamHouse.69ec1a5370a9bdb8e80d.png",
     "static/media/blogImg.png": "/Aayushi-Sinha-Portfolio/static/media/blogImg.58701e6df4d44e6f1279.png",
+    "static/media/c.png": "/Aayushi-Sinha-Portfolio/static/media/c.99eeef76db52d6b721fb.png",
+    "static/media/sms-classifier.png": "/Aayushi-Sinha-Portfolio/static/media/sms-classifier.0eedc4f78d05f4dd52c2.png",
     "static/media/HomeImg.svg": "/Aayushi-Sinha-Portfolio/static/media/HomeImg.aa492a197244401ccff97e80f5fb1cfe.svg",
+    "static/media/opencv.svg": "/Aayushi-Sinha-Portfolio/static/media/opencv.cdca8e7fb77fad3a2b3ca93149320c7e.svg",
+    "static/media/react.svg": "/Aayushi-Sinha-Portfolio/static/media/react.f57b349b4d9df56c9b48c916a8d5adfb.svg",
+    "static/media/tableau.svg": "/Aayushi-Sinha-Portfolio/static/media/tableau.b6ad42c89c34eab6bc8d6c440f2bc73e.svg",
+    "static/media/powerbi.svg": "/Aayushi-Sinha-Portfolio/static/media/powerbi.334efe11f64e8824f462516bbaf6c286.svg",
+    "static/media/slick.svg": "/Aayushi-Sinha-Portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/excel.svg": "/Aayushi-Sinha-Portfolio/static/media/excel.38e53191fca8764976cf12cf9f0baced.svg",
+    "static/media/slick.eot": "/Aayushi-Sinha-Portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/python.svg": "/Aayushi-Sinha-Portfolio/static/media/python.4298525c028749eb4fa154f8f5bd1931.svg",
+    "static/media/slick.ttf": "/Aayushi-Sinha-Portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/tensorflow.svg": "/Aayushi-Sinha-Portfolio/static/media/tensorflow.b675fae9e6dd5e9a9cb817ba5088dc4c.svg",
+    "static/media/tailwindcss.svg": "/Aayushi-Sinha-Portfolio/static/media/tailwindcss.f94972e4845d675a49698c46b404a570.svg",
+    "static/media/cpp.svg": "/Aayushi-Sinha-Portfolio/static/media/cpp.8747b38f9a5bd1cc0f8e71dad8860c4b.svg",
+    "static/media/slick.woff": "/Aayushi-Sinha-Portfolio/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/git.svg": "/Aayushi-Sinha-Portfolio/static/media/git.8ee81345da1c18b6cdb4bbe93b464810.svg",
+    "static/media/figma.svg": "/Aayushi-Sinha-Portfolio/static/media/figma.f577500fbb0169a31432949661d68597.svg",
     "index.html": "/Aayushi-Sinha-Portfolio/index.html",
     "static/media/blogBlob.svg": "/Aayushi-Sinha-Portfolio/static/media/blogBlob.6d005284050041f3f5a06dc2e750787e.svg",
-    "main.fb2144ed.css.map": "/Aayushi-Sinha-Portfolio/static/css/main.fb2144ed.css.map",
-    "main.02c74752.js.map": "/Aayushi-Sinha-Portfolio/static/js/main.02c74752.js.map"
+    "static/media/pandas.svg": "/Aayushi-Sinha-Portfolio/static/media/pandas.5a48d1677b40ca61e96a08e92fdbb64d.svg",
+    "static/media/javascript.svg": "/Aayushi-Sinha-Portfolio/static/media/javascript.7bb08cdbe94fc2dfc1b51be8c2dae551.svg",
+    "main.fb52bccd.css.map": "/Aayushi-Sinha-Portfolio/static/css/main.fb52bccd.css.map",
+    "main.3de24cf9.js.map": "/Aayushi-Sinha-Portfolio/static/js/main.3de24cf9.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb2144ed.css",
-    "static/js/main.02c74752.js"
+    "static/css/main.fb52bccd.css",
+    "static/js/main.3de24cf9.js"
   ]
 }
