@@ -1,5 +1,5 @@
 import React, {Suspense} from "react";
-import {Link} from 'react-scroll';
+// import {Link} from 'react-scroll';
 import {TypeAnimation} from 'react-type-animation';
 import {motion} from 'framer-motion';
 import {fadeIn} from '../variants';
@@ -34,7 +34,7 @@ const Home = () => {
             </motion.div>
 
               <motion.p variants={fadeIn('up', 0.5)} initial="hidden" whileInView={'show'} viewport={{once:false, amount: 0.7}} className="mb-8 max-w-lg mx-auto lg:mx-0 text-[16px] xl:text-[18px] leading-7">
-              I am a 3rd Year Computer Science and Engineering Student from IIIT Dharwad. I love to design and build beautiful and responsive websites. I am a quick learner and always ready to learn new things. 
+              I am a 4th Year Computer Science and Engineering Student from IIIT Dharwad. I love to bring life to innovative ideas through my designs and projects. I am a quick learner and am always ready to learn new things. 
               </motion.p>
 
               {/* Buttons/links */}

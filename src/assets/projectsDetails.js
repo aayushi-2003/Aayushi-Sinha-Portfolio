@@ -13,7 +13,7 @@ export const projectDetails ={
     img: LearnWave,
     code_design_link:'https://github.com/aayushi-2003/LearnWave',
     live_link:'https://aayushi-2003.github.io/LearnWave/',
-    tools: ["HTML", "TailwindCSS", "JavaScript", "Figma"]
+    tools: ["HTML", "TailwindCSS", "ReactJS", "Figma"]
     },
     {title: "Velocity", 
     description: "The official website of Velocity - the coding club of IIIT Dharwad. I worked in a team to make the frontend and UI design of the website.",
@@ -40,6 +40,19 @@ export const projectDetails ={
         live_link:'https://www.figma.com/proto/eBP8DdEVnPYfOyyiVGtVkM/SoulFit-Design?node-id=753-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=134%3A5&mode=design&t=z7MfrRn3JcWSN6Mq-1',
         tools: ["Figma", "Wireframing", "Prototype", "UX Research"]
         },
+        {title: "DreamHome Rental Business", 
+            description: "A simple application made using Python GUI that empowers staff, property owners and renters to seamlessly carry out their rental business, with a backend supported by SQL database.",
+            img: dreamHome,
+            code_design_link:'https://github.com/aayushi-2003/DreamHouse-DBMS',
+            live_link:'#',
+            tools: ["Python", "Tkinter", "MySQL"]
+            },
+        {title: "Air Canvas", 
+            description: "Developed an interactive Air Canvas interface in Python using OpenCV for graphical interface and MediaPipe library for real time hand tracking. Added several customizations for interactivity such as color selection and adjustable pen size.",
+            img: opencv,
+            code_design_link:'https://github.com/aayushi-2003/AirCanvas',
+            tools: ["Python", "MediaPipe", "OpenCV"]
+        },
     ],
     other:[
         {title: "SMS Spam Classifier Model", 
@@ -57,11 +70,17 @@ export const projectDetails ={
         tools: ["Python", "MediaPipe", "OpenCV"]
         },
         {title: "DreamHome Rental Business", 
-        description: "A simple application made using Python GUI that empowers staff, property owners and renters to seamlessly carry out their rental business.",
+        description: "A simple application made using Python GUI that empowers staff, property owners and renters to seamlessly carry out their rental business, with a backend supported by SQL database.",
         img: dreamHome,
         code_design_link:'https://github.com/aayushi-2003/DreamHouse-DBMS',
         live_link:'#',
         tools: ["Python", "Tkinter", "MySQL"]
+        },
+        {title: "Air Canvas", 
+        description: "Developed an interactive Air Canvas interface in Python using OpenCV for graphical interface and MediaPipe library for real time hand tracking. Added several customizations for interactivity such as color selection and adjustable pen size.",
+        img: opencv,
+        code_design_link:'https://github.com/aayushi-2003/AirCanvas',
+        tools: ["Python", "MediaPipe", "OpenCV"]
         },
     ]
 
