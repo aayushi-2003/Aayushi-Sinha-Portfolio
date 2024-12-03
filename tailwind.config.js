@@ -4,10 +4,11 @@ module.exports = {
   theme: {
     fontFamily:{
       primary: ['Overpass', 'sans-serif'],
+      heading: ['Unbounded', 'sans-serif'],
     },
     container: {
       padding: {
-        DEFAULT: '65px',
+        DEFAULT: '75px',
       },
     },
     extend: {

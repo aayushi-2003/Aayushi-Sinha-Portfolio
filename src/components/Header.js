@@ -16,15 +16,14 @@ const NavLinks = () =>{
 
 const Header = () => {
     const [showMenu, setShowMenu] = useState(false);
-    
 
     return (
-      <header className="py-8 ">
+      <header className="py-4">
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           {/* Name */}
           <a href="#">
-            <h1 className="font-primary text-[20px] md:text-[30px] lg:text-[36px]">Aayushi Sinha</h1>
+            <h1 className="font-primary text-[18px] md:text-[20px] lg:text-[26px]">Aayushi Sinha</h1>
           </a>
           <Link to='contact' smooth={true} className="cursor-pointer hidden md:block">
           <button className="text-[20px] btn btn-sm mr-6 ">Contact Me</button>
