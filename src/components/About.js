@@ -31,7 +31,7 @@ const About = () => {
         <div className="container flex justify-between items-center mx-auto lg:space-x-8 md:flex-row flex-col gap-16">
           <motion.div variants={fadeIn('down', 0.3)} initial="hidden" whileInView={'show'} 
           className="card-container flex flex-col items-center justify-center order-2 lg:order-1 pl-0 gap-y-4">
-            <div className=" bg-blue-400 backdrop-blur-md bg-opacity-20  rounded-xl  text-black flex flex-col items-start justify-center  relative p-[2px] bg-gradient-to-r from-blue-400/40 via-blue-200/40 to-blue-500/40 ">
+            <div className=" bg-blue-400 backdrop-blur-md bg-opacity-20  rounded-xl  text-black flex flex-col items-start justify-center  relative p-[2px]  ">
               <div className="h-fit  w-[380px] bg-[#192957] rounded-xl p-6 ">
                 <h1 className="mb-1 lg:mb-4 text-[20px]  font-semibold tracking-wider text-white font-heading">My Key Skills</h1>
                 <div className="flex flex-col gap-4 font-medium md:leading-8 lg:leading-10 ">
@@ -60,7 +60,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className=" bg-blue-400 backdrop-blur-md bg-opacity-20  rounded-xl  text-black flex flex-col items-start justify-center  relative p-[2px] bg-gradient-to-r from-blue-400/40 via-blue-200/40 to-blue-500/40 ">
+            <div className=" bg-blue-400 backdrop-blur-md bg-opacity-20  rounded-xl  text-black flex flex-col items-start justify-center  relative p-[2px] ">
               <div className="h-fit w-[380px] bg-[#192957] rounded-xl p-6 ">
                 <h1 className="mb-1 lg:mb-4 text-[20px]  font-semibold tracking-wider text-white font-heading">Beyond Code I Love</h1>
                 <div className="flex gap-4 font-medium md:leading-8 lg:leading-10 flex-wrap">

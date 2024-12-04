@@ -44,11 +44,11 @@ const Home = () => {
           </div>
 
           {/* image/svg */}
-          <motion.div variants={fadeIn('down', 0.5)} initial="hidden" whileInView={'show'} className="flex flex-1 max-w-[220px]  lg:max-w-[402px] relative h-[480px] justify-end items-center "> 
+          <motion.div variants={fadeIn('down', 0.5)} initial="hidden" whileInView={'show'} className="flex flex-1 max-w-[220px]  lg:max-w-[402px] relative h-[480px] justify-end items-center group "> 
             <div className="bg-blue-400 backdrop-blur-md bg-opacity-20  rounded-2xl p-[3px] bg-gradient-to-r from-purple-500/90 via-blue-400/90 to-blue-500/80  h-fit relative z-10">
               <img src={Aayushi} className="h-[300px] w-fit rounded-2xl"/>
             </div>
-            <div className="rounded-2xl p-[3px] border-blue-400 border-[4px] absolute h-[300px] w-[300px] bottom-[65px] left-[80px] z-0">
+            <div className="rounded-2xl p-[3px] border-blue-400 border-[4px] absolute h-[300px] w-[300px] bottom-[65px] left-[80px] z-0 group-hover:bottom-[88px] group-hover:left-[102px] transition-all ease-in-out duration-150">
             </div>
           </motion.div>
           </div>

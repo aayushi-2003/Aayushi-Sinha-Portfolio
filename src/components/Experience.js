@@ -39,7 +39,7 @@ const Experience = () => {
           viewport={{once:false, amount: 0.3}} 
           transition={{ delay: index * 0.1 }}
           key={index}
-            className="relative bg-white shadow-lg rounded-xl p-[2px] bg-gradient-to-r from-blue-400/40 via-blue-200/40 to-blue-500/40 max-w-2xl mx-auto"
+            className="relative shadow-lg rounded-xl p-[2px] bg-site max-w-2xl mx-auto"
           >
             <div className="bg-[#192957] rounded-xl p-6">
                 <div className="flex justify-between">

@@ -28,7 +28,7 @@ export default function ProjectCards({ projectSub }) {
                         <img
                             src={project.img}
                             alt=""
-                            className="w-full h-full object-cover rounded-xl inset-0 transition-all duration-200 group-hover:scale-105"
+                            className="w-full h-full object-cover rounded-xl inset-0 transition-all duration-[500ms] group-hover:scale-105"
                         />
                     </div>
                     <div className="text-white flex flex-col items-center text-center">
