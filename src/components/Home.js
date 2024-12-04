@@ -6,8 +6,6 @@ import {fadeIn} from '../variants';
 import {AiOutlineRight} from 'react-icons/ai';
 import {ReactComponent as HomeImg} from '../assets/HomeImg.svg';
 import Aayushi from '../assets/Aayushi-full.jpg';
-import {Canvas} from "@react-three/fiber";
-import {OrbitControls, MeshDistortMaterial, Sphere} from "@react-three/drei";
 
 const Home = () => {
   const resumeURL = 'https://drive.google.com/file/d/15-9aEtt0JkMqWo-9TNPqBgV5UzJbvWXf/view?usp=sharing';
@@ -33,7 +31,7 @@ const Home = () => {
             </motion.h1>
 
 
-              <motion.p variants={fadeIn('up', 0.5)} initial="hidden" whileInView={'show'} viewport={{once:false, amount: 0.7}} className="mb-8  mx-auto lg:mx-0 text-[14px] xl:text-[16px] leading-7 text-white/60">
+              <motion.p variants={fadeIn('up', 0.5)} initial="hidden" whileInView={'show'} viewport={{once:false, amount: 0.7}} className="mb-8  mx-auto lg:mx-0 text-[14px] xl:text-[17px] leading-7 text-blue-100/60 tracking-wide">
               I’m a 4th-year Computer Science student at IIIT Dharwad, passionate about transforming ideas into impactful designs and projects. A quick learner, always ready to explore and grow.
               </motion.p>
 
@@ -46,24 +44,12 @@ const Home = () => {
           </div>
 
           {/* image/svg */}
-          <motion.div variants={fadeIn('down', 0.5)} initial="hidden" whileInView={'show'} className="flex flex-1 max-w-[220px]  lg:max-w-[402px] relative h-[480px] justify-end items-center"> 
-          {/* <Canvas >
-            <Suspense fallback={null}>
-              <OrbitControls enableZoom={false}  />
-              <ambientLight intensity={1} />
-              <directionalLight position={[3, 2, 1]} />
-              <Sphere args={[1, 100, 200]} scale={2.5}>
-                <MeshDistortMaterial
-                  color="#2591F4"
-                  attach="material"
-                  distort={0.25}
-                  speed={2}
-                />
-              </Sphere>
-            </Suspense>
-          </Canvas> */}
-
-            <img src={Aayushi} className="h-[300px] w-fit rounded-2xl"/>
+          <motion.div variants={fadeIn('down', 0.5)} initial="hidden" whileInView={'show'} className="flex flex-1 max-w-[220px]  lg:max-w-[402px] relative h-[480px] justify-end items-center "> 
+            <div className="bg-blue-400 backdrop-blur-md bg-opacity-20  rounded-2xl p-[3px] bg-gradient-to-r from-purple-500/90 via-blue-400/90 to-blue-500/80  h-fit relative z-10">
+              <img src={Aayushi} className="h-[300px] w-fit rounded-2xl"/>
+            </div>
+            <div className="rounded-2xl p-[3px] border-blue-400 border-[4px] absolute h-[300px] w-[300px] bottom-[65px] left-[80px] z-0">
+            </div>
           </motion.div>
           </div>
         </div>

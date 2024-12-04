@@ -40,21 +40,14 @@ export const projectDetails ={
         live_link:'https://www.figma.com/proto/eBP8DdEVnPYfOyyiVGtVkM/SoulFit-Design?node-id=753-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=134%3A5&mode=design&t=z7MfrRn3JcWSN6Mq-1',
         tools: ["Figma", "Wireframing", "Prototype", "UX Research"]
         },
-        {title: "DreamHome Rental Business", 
-            description: "A simple application made using Python GUI that empowers staff, property owners and renters to seamlessly carry out their rental business, with a backend supported by SQL database.",
-            img: dreamHome,
-            code_design_link:'https://github.com/aayushi-2003/DreamHouse-DBMS',
-            live_link:'#',
-            tools: ["Python", "Tkinter", "MySQL"]
-            },
-        {title: "Air Canvas", 
-            description: "Developed an interactive Air Canvas interface in Python using OpenCV for graphical interface and MediaPipe library for real time hand tracking. Added several customizations for interactivity such as color selection and adjustable pen size.",
-            img: opencv,
-            code_design_link:'https://github.com/aayushi-2003/AirCanvas',
-            tools: ["Python", "MediaPipe", "OpenCV"]
-        },
     ],
     other:[
+        {title: "Phishing URL Detection", 
+        description: "Built a Random Forest classification model for phishing URL detection, achieving 96.52% accuracy on a dataset of 11,430 websites. Conducted a study on social engineering attacks using AI/ML and possibile countermeasures.",
+        img: sms,
+        code_design_link:'https://github.com/aayushi-2003/Social-Engineering-Detection',
+        tools: ["Python", "Pandas", "Scikit-learn"]
+        },
         {title: "SMS Spam Classifier Model", 
         description: "A classification model for SMS spam detection. Used Pandas for data cleaning and visualization, NLTK for text preprocessing and built the model using TF-IDF Vectorizer and Multinomial Naive Bayes.",
         img: sms,

@@ -11,13 +11,13 @@ let tabs = [
 export default function AnimatedTabs(){
     const [activeTab, setActiveTab] = useState(tabs[0].id);
     return (
-        <div className="space-y-16 relative mx-auto h-full">
-            <div className="flex space-x-3 md:space-x-6 lg:space-x-20 md:mr-10 items-center justify-center ">
+        <div className="relative mx-auto h-full">
+            <div className="flex space-x-3 md:space-x-6 lg:space-x-16 md:mr-10 items-center justify-center ">
                 {tabs.map((tab)=>(
                     <button key={tab.id}
                     onClick={()=>setActiveTab(tab.id)}
                     className={`${activeTab === tab.id? "text-slate-800": "hover:text-sky-300"}
-                    rounded-full py-2 md:py-4 px-2 md:px-6 text-[14px] md:text-[20px] lg:text-[25px] leading-5  font-medium text-white outline-2 outline-sky-400 focus-visible:outline relative `}
+                    rounded-full py-2 md:py-3 px-2 md:px-5 text-[14px] md:text-[18px] lg:text-[20px] leading-5  font-medium text-white outline-2 outline-sky-400 focus-visible:outline relative `}
                     >
                         {activeTab === tab.id && (
                         <motion.div 
@@ -30,7 +30,7 @@ export default function AnimatedTabs(){
                     </button>
                 ))}
             </div>
-            <div className="w-full flex flex-wrap justify-center">
+            <div className="w-full flex flex-wrap justify-center py-10">
             {activeTab === 'web development'?(
                 <ProjectCards projectSub="WebDev"/>
             ): activeTab === 'ui/ux'?(<ProjectCards projectSub="UIUX"/>):(<ProjectCards projectSub="other"/>)}

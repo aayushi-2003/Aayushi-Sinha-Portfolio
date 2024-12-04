@@ -21,13 +21,13 @@ const Publications = () => {
           {/* Heading div */}
           <motion.div variants={fadeIn('left', 0.3)} initial="hidden" whileInView={'show'} viewport={{once:false, amount: 0.3}} className='flex flex-col items-start justify-center gap-3 md:gap-6 pt-10 z-10 order-1 md:order-2'>
 
-            <a href={blogURL} target="_blank" className="flex items-center hover:border-b-[1px] hover:text-cyan-200 text-[14px] md:text-base lg:text-xl uppercase font-medium mb-2 tracking-wide cursor-pointer ml-6 md:ml-0">Check out my latest blog <span className="ml-2 mb-1"><AiOutlineRight/></span></a>
+            <a href={blogURL} target="_blank" className="flex items-center hover:border-b-[1px] text-blue-100/60 hover:text-blue-200 text-[14px] md:text-base lg:text-xl uppercase font-medium mb-2 tracking-wide cursor-pointer ml-6 md:ml-0">Check out my latest blog <span className="ml-2 mb-1"><AiOutlineRight/></span></a>
 
             <h1 className='text-[30px] md:text-[35px] lg:text-[45px] xl:text-[60px] leading-none text-center md:text-left'>
               <span>CSS Frameworks: <br/>A Beginner’s Guide </span>
             </h1>
 
-            <div className="bg-purple_light w-full h-1 rounded-full mb-6 md:mb-0"></div>
+            <div className="bg-gradient-to-r from-purple_light via-purple-400 to-pink-600 w-1/2 h-1 rounded-full mb-6 md:mb-0"></div>
           </motion.div>
         </div>
       </div>

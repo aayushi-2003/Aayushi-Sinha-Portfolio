@@ -68,19 +68,19 @@ const Contact = () => {
              viewport={{once:false, amount: 0.3}} 
              className='flex-1 border rounded-2xl flex flex-col gap-y-4 md:gap-y-6 g:mx-10 pb-12 mb-16 p-6 items-center md:items-start max-md:text-[16px]'>
               <input type="text" 
-              className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-blue-500 transition-all' 
+              className='bg-transparent border-b py-3 outline-none w-full placeholder:text-blue-100/90 focus:border-blue-500 transition-all' 
               placeholder='Your Name'
               name='user_name'
               value={form.user_name}
               onChange={handleChange}/>
               <input type="text" 
-              className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-blue-500 transition-all' 
+              className='bg-transparent border-b py-3 outline-none w-full placeholder:text-blue-100/90 focus:border-blue-500 transition-all' 
               placeholder='Your email'
               name='user_mail'
               value={form.user_mail}
               onChange={handleChange}/>
               <textarea 
-              className='bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-blue-500 transition-all resize-none mb-12' 
+              className='bg-transparent border-b py-12 outline-none w-full placeholder:text-blue-100/90 focus:border-blue-500 transition-all resize-none mb-12' 
               placeholder='Your message'
               name='user_message'
               value={form.user_message}
@@ -90,8 +90,8 @@ const Contact = () => {
             </motion.form>
           </div>
           <div className='flex flex-col lg:flex-row items-center justify-center lg:justify-between ml-[-14px] xl:px-12 md:pb-10 lg:pb-0'>
-        <p className='text-[12px] xl:text-sm text-opacity-40'>Designed and Developed by Aayushi Sinha</p>
-        <p className='text-[12px] xl:text-sm text-opacity-40'>aayushi.sinha1980@gmail.com</p>
+        <p className='text-[12px] xl:text-sm text-blue-100/60'>Designed and Developed by Aayushi Sinha</p>
+        <p className='text-[12px] xl:text-sm text-blue-100/60'>aayushi.sinha1980@gmail.com</p>
         </div>
         </div>
         
