@@ -34,7 +34,7 @@ export default function ProjectCards({ projectSub }) {
                     <div className="text-white flex flex-col items-center text-center">
                         <h2 className="text-[22px] mb-2">{project.title}</h2>
                         <p className="text-[14px] mb-4 leading-6 text-blue-100/60">{project.description}</p>
-                        <ul className="flex flex-wrap justify-center text-sm text-purple_light mb-4">
+                        <ul className="flex flex-wrap justify-center text-sm text-purple-300/80 mb-4">
                             {project.tools.map((tool, index) => (
                                 <li key={index} className="mr-4">{tool}</li>
                             ))}

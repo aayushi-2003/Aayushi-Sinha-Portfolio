@@ -55,7 +55,7 @@ const Experience = () => {
                     {internship.description}
                     </p>
                 <div className="mt-3 text-sm text-gray-200">
-                <ul className="flex flex-wrap text-sm text-purple_light mb-4">
+                <ul className="flex flex-wrap text-sm text-purple-300/80 mb-4">
                     {internship.keySkills.map((tool, index) => (
                         <li key={index} className="mr-4">{tool}</li>
                     ))}

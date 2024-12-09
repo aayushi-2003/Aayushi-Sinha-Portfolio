@@ -5,9 +5,18 @@ import velocityImg from './velocity.jpg';
 import LearnWave from './LW.jpeg';
 import sms from './sms-classifier.png';
 import opencv from './opencv.png'
+import phishing from './phishing.png'
+import coursemate from './coursemate.png'
 
 export const projectDetails ={
     WebDev:[
+    {title: "CourseMate", 
+    description: "A course management app enabling users to efficiently manage courses with full CRUD functionality in a user-friendly interface.",
+    img: coursemate,
+    code_design_link:'https://github.com/aayushi-2003/CoursesApp',
+    live_link:'https://aayushi-2003.github.io/CoursesApp/',
+    tools: ["HTML", "TailwindCSS", "ReactJS"]
+    },
     {title: "LearnWave", 
     description: "An E-Learning Platform for Online Courses in Tech Field. This project is completely ideated, designed and developed by me.",
     img: LearnWave,
@@ -44,7 +53,7 @@ export const projectDetails ={
     other:[
         {title: "Phishing URL Detection", 
         description: "Built a Random Forest classification model for phishing URL detection, achieving 96.52% accuracy on a dataset of 11,430 websites. Conducted a study on social engineering attacks using AI/ML and possibile countermeasures.",
-        img: sms,
+        img: phishing,
         code_design_link:'https://github.com/aayushi-2003/Social-Engineering-Detection',
         tools: ["Python", "Pandas", "Scikit-learn"]
         },
