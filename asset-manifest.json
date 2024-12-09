@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/Aayushi-Sinha-Portfolio/static/css/main.8bd83cef.css",
-    "main.js": "/Aayushi-Sinha-Portfolio/static/js/main.85a4a33a.js",
+    "main.css": "/Aayushi-Sinha-Portfolio/static/css/main.54b2b732.css",
+    "main.js": "/Aayushi-Sinha-Portfolio/static/js/main.515e4d57.js",
     "static/media/Aayushi-full.jpg": "/Aayushi-Sinha-Portfolio/static/media/Aayushi-full.49074e13fa5bd8189436.jpg",
     "static/media/restaurant.jpg": "/Aayushi-Sinha-Portfolio/static/media/restaurant.790852e6e4aa7e409ae8.jpg",
     "static/media/SoulFit.jpg": "/Aayushi-Sinha-Portfolio/static/media/SoulFit.6a78a677504ea51d5fc9.jpg",
     "static/media/velocity.jpg": "/Aayushi-Sinha-Portfolio/static/media/velocity.1b9e1146ec2443b770e5.jpg",
     "static/media/opencv.png": "/Aayushi-Sinha-Portfolio/static/media/opencv.c2de2dc9aae57528fea7.png",
+    "static/media/phishing.png": "/Aayushi-Sinha-Portfolio/static/media/phishing.f105575ac14c60311d23.png",
     "static/media/LW.jpeg": "/Aayushi-Sinha-Portfolio/static/media/LW.2cfb43999d8a6b54ac8a.jpeg",
+    "static/media/coursemate.png": "/Aayushi-Sinha-Portfolio/static/media/coursemate.870f3e3b7da5bdb6f5ec.png",
     "static/media/dreamHouse.png": "/Aayushi-Sinha-Portfolio/static/media/dreamHouse.69ec1a5370a9bdb8e80d.png",
     "static/media/blogImg.png": "/Aayushi-Sinha-Portfolio/static/media/blogImg.58701e6df4d44e6f1279.png",
     "static/media/books.png": "/Aayushi-Sinha-Portfolio/static/media/books.4f29521ccf5424a04f94.png",
@@ -34,11 +36,11 @@
     "static/media/blogBlob.svg": "/Aayushi-Sinha-Portfolio/static/media/blogBlob.6d4b2ee9aff6e776bcb87c6fef5f7598.svg",
     "static/media/pandas.svg": "/Aayushi-Sinha-Portfolio/static/media/pandas.62ace4bd2f097af9adb83c2a02697f36.svg",
     "static/media/javascript.svg": "/Aayushi-Sinha-Portfolio/static/media/javascript.c2d463fde72a01350f2e8cdd7797b7ba.svg",
-    "main.8bd83cef.css.map": "/Aayushi-Sinha-Portfolio/static/css/main.8bd83cef.css.map",
-    "main.85a4a33a.js.map": "/Aayushi-Sinha-Portfolio/static/js/main.85a4a33a.js.map"
+    "main.54b2b732.css.map": "/Aayushi-Sinha-Portfolio/static/css/main.54b2b732.css.map",
+    "main.515e4d57.js.map": "/Aayushi-Sinha-Portfolio/static/js/main.515e4d57.js.map"
   },
   "entrypoints": [
-    "static/css/main.8bd83cef.css",
-    "static/js/main.85a4a33a.js"
+    "static/css/main.54b2b732.css",
+    "static/js/main.515e4d57.js"
   ]
 }
