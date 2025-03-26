@@ -1,4 +1,4 @@
-import SoulFit from './SoulFit.jpg';
+import SoulFit from './SoulFit.png';
 import dreamHome from './dreamHouse.png';
 import restaurantImg from './restaurant.jpg';
 import velocityImg from './velocity.jpg';
@@ -7,6 +7,7 @@ import sms from './sms-classifier.png';
 import opencv from './opencv.png'
 import phishing from './phishing.png'
 import coursemate from './coursemate.png'
+import idms from './idms.png'
 
 export const projectDetails ={
     WebDev:[
@@ -45,8 +46,14 @@ export const projectDetails ={
         {title: "SoulFit", 
         description: "A physical fitness, meditation and mental fitness app. I conducted user research, took qualitative analysis from peers and designed the UI/UX design as well as interactive prototype of the app.",
         img: SoulFit,
-        code_design_link:'https://www.figma.com/file/eBP8DdEVnPYfOyyiVGtVkM/SoulFit-Design?type=design&node-id=0-1&mode=design&t=UiFOWS46q9ysclch-0',
-        live_link:'https://www.figma.com/proto/eBP8DdEVnPYfOyyiVGtVkM/SoulFit-Design?node-id=753-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=134%3A5&mode=design&t=z7MfrRn3JcWSN6Mq-1',
+        code_design_link:'https://www.figma.com/design/wt9uC3xpTSNAnjZJ2BCxgC/SoulFit-Design?node-id=0-1&p=f&t=hffMjqM3VNS5jBgs-0',
+        live_link:'https://www.figma.com/proto/wt9uC3xpTSNAnjZJ2BCxgC/SoulFit-Design?node-id=2304-113&t=0TgOl7OZI2sM1eUi-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2302%3A169&show-proto-sidebar=1',
+        tools: ["Figma", "Wireframing", "Prototype", "UX Research"]
+        },
+        {title: "iDMS - Excellon Software", 
+        description: "A B2B SaaS application that automates the processes for automotive dealer management such as sales, repair, maintenance, finance, inventory management etc.",
+        img: idms,
+        live_link:'https://docs.google.com/document/d/1ObWNeWnE2HF4ML_a78KmO5irW4tquseoDjK7FSzuiuI/edit?usp=sharing',
         tools: ["Figma", "Wireframing", "Prototype", "UX Research"]
         },
     ],

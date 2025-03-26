@@ -1,5 +1,4 @@
 import React from "react";
-import { projectDetails } from "../assets/projectsDetails";
 import AnimatedTabs from "../constants/AnimatedTabs";
 
 const Projects = () => {

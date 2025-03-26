@@ -1,10 +1,7 @@
-import React, {Suspense} from "react";
-// import {Link} from 'react-scroll';
 import {TypeAnimation} from 'react-type-animation';
 import {motion} from 'framer-motion';
 import {fadeIn} from '../variants';
 import {AiOutlineRight} from 'react-icons/ai';
-import {ReactComponent as HomeImg} from '../assets/HomeImg.svg';
 import Aayushi from '../assets/Aayushi-full.jpg';
 
 const Home = () => {
@@ -38,7 +35,7 @@ const Home = () => {
               {/* Buttons/links */}
               <motion.div variants={fadeIn('up', 0.6)} initial="hidden" whileInView={'show'} viewport={{once:false, amount: 0.7}} className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0 md:flex-row flex-col gap-y-5 ">
               <a href={behanceURL}><button className="btn btn-lg h-10 w-44  p-0 cursor-pointer">Behance Profile</button></a>
-                <a href={resumeURL} target="_blank" className="flex items-center hover:border-b-[1px] hover:text-purple_light">View My Resume <span className="md:ml-2 mb-1"><AiOutlineRight/></span></a>
+                <a href={resumeURL} target="_blank" rel="noreferrer" className="flex items-center hover:border-b-[1px] hover:text-purple_light">View My Resume <span className="md:ml-2 mb-1"><AiOutlineRight/></span></a>
               </motion.div>
 
           </div>
@@ -46,7 +43,7 @@ const Home = () => {
           {/* image/svg */}
           <motion.div variants={fadeIn('down', 0.5)} initial="hidden" whileInView={'show'} className="flex flex-1 max-w-[220px]  lg:max-w-[402px] relative h-[480px] justify-end items-center group "> 
             <div className="bg-blue-400 backdrop-blur-md bg-opacity-20  rounded-2xl p-[3px] bg-gradient-to-r from-purple-500/90 via-blue-400/90 to-blue-500/80  h-fit relative z-10">
-              <img src={Aayushi} className="h-[300px] w-fit rounded-2xl"/>
+              <img src={Aayushi} className="h-[300px] w-fit rounded-2xl" alt='Aayushi'/>
             </div>
             <div className="rounded-2xl p-[3px] border-blue-400 border-[4px] absolute h-[300px] w-[300px] bottom-[65px] left-[80px] z-0 group-hover:bottom-[88px] group-hover:left-[102px] transition-all ease-in-out duration-150">
             </div>

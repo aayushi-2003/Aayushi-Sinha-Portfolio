@@ -1,6 +1,3 @@
-import React, {Suspense} from "react";
-import {Canvas} from "@react-three/fiber";
-import {OrbitControls, MeshDistortMaterial, Sphere} from "@react-three/drei";
 import {motion} from 'framer-motion';
 import {fadeIn} from '../variants';
 import {ReactComponent as Python} from '../assets/logos/python.svg';
@@ -37,7 +34,7 @@ const About = () => {
                 <div className="flex flex-col gap-4 font-medium md:leading-8 lg:leading-10 ">
                   <div className=" flex space-x-3 lg:space-x-8">
                     <Python className="h-[36px] w-[36px] lg:h-[40px] lg:w-[40px]"/>
-                    <img src={clang} className="h-[36px] w-[36px] lg:h-[40px] lg:w-[40px]"/>
+                    <img src={clang} className="h-[36px] w-[36px] lg:h-[40px] lg:w-[40px]" alt='c'/>
                     <Cpp className="h-[36px] w-[36px] lg:h-[40px] lg:w-[40px]"/>
                     <JavaScript className="h-[36px] w-[36px] lg:h-[40px] lg:w-[40px]"/>
                     <Sql className="h-[36px] w-[36px] lg:h-[44px] lg:w-[44px]"/>
@@ -70,22 +67,23 @@ const About = () => {
                     </div>
                     <div className="bg-white rounded-md px-3 py-2 leading-none text-[16px] flex items-center justify-center space-x-2">
                       <span>Reading</span>
-                      <img src={books} className="h-[24px] lg:w-[24px]"/>                    
+                      <img src={books} className="h-[24px] lg:w-[24px]" alt='books'/>                    
                       </div>
                     <div className="bg-white rounded-md px-3 py-2 leading-none text-[16px] flex items-center justify-center space-x-2">
                       <span>Guitar</span>
-                      <img src={guitar} className="h-[24px] lg:w-[24px]"/>                     
+                      <img src={guitar} className="h-[24px] lg:w-[24px]" alt='guitar'/>                     
                     </div>
                     <div className="bg-white rounded-md px-3 py-2 leading-none text-[16px] flex items-center justify-center space-x-2">
                       <span>Writing</span>
-                      <img src={writing} className="h-[24px] lg:w-[24px]"/>                     
+                      <img src={writing} className="h-[24px] lg:w-[24px]" alt='writing'/>                     
                     </div>
                     <div className="bg-white rounded-md px-3 py-2 leading-none text-[16px] flex items-center justify-center space-x-2">
                       <span>Watching movies</span>
-                      <img src={movies} className="h-[24px] lg:w-[24px]"/>                     
+                      <img src={movies} className="h-[24px] lg:w-[24px] alt='movies'"/>                     
                     </div>
                 </div>
               </div>
+              
             </div>
           </motion.div>
 
