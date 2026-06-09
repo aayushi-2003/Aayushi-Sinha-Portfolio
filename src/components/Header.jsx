@@ -23,7 +23,7 @@ const Header = () => {
         <div className="flex justify-between items-center">
           {/* Name */}
           <a href="#">
-            <h1 className="font-primary text-[18px] md:text-[20px] lg:text-[26px]">Aayushi Sinha</h1>
+            <h1 className="font-primary text-[18px] md:text-[20px] lg:text-[26px]">Aayushi Sinha's Portfolio</h1>
           </a>
           <Link to='contact' smooth={true} className="cursor-pointer hidden md:block">
           <button className="text-[20px] btn btn-sm mr-6 pt-1">Contact Me</button>
