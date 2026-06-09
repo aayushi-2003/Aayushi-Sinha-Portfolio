@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     fontFamily:{
       primary: ['Overpass', 'sans-serif'],
-      heading: ['Unbounded', 'sans-serif'],
+      heading: ['League Spartan', 'sans-serif'],
     },
     container: {
       padding: {
@@ -13,7 +13,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        site: '#070A2E',
+        site: '#070A1E',
         blue_med: '#3e62e7',
         light_white: '#f7fcff',
         purple_light: '#C38BFB',

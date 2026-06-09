@@ -1,6 +1,6 @@
 import React from "react";
-import blogImg from '../assets/blogImg.png';
-import blogBlob from '../assets/blogBlob.svg';
+import blogImg from '../assets/images/blog/blogImg.png';
+import blogBlob from '../assets/images/blog/blogBlob.svg';
 import {AiOutlineRight} from 'react-icons/ai';
 import {motion} from 'framer-motion';
 import {fadeIn} from '../variants';
@@ -16,7 +16,7 @@ const Publications = () => {
         <div className="container flex  flex-col md:flex-row justify-center items-center mx-auto md:space-x-10 lg:space-x-16 xl:space-x-20 relative">
           {/* Image div */}
           <motion.div variants={fadeIn('right', 0.3)} initial="hidden" whileInView={'show'} viewport={{once:false, amount: 0.3}} className='blogImage z-10 order-2 md:order-1'>
-            <img src={blogImg} alt="" className='h-auto w-[25rem] lg:w-[30rem] xl:w-[35rem] rounded-xl'/>
+            <img src={blogImg} alt="" className='h-auto w-[25rem] lg:w-[30rem] xl:w-[35rem] rounded-lg'/>
           </motion.div>
           {/* Heading div */}
           <motion.div variants={fadeIn('left', 0.3)} initial="hidden" whileInView={'show'} viewport={{once:false, amount: 0.3}} className='flex flex-col items-start justify-center gap-3 md:gap-6 pt-10 z-10 order-1 md:order-2'>
@@ -27,7 +27,7 @@ const Publications = () => {
               <span>CSS Frameworks: <br/>A Beginner’s Guide </span>
             </h1>
 
-            <div className="bg-gradient-to-r from-purple_light via-purple-400 to-pink-600 w-1/2 h-1 rounded-full mb-6 md:mb-0"></div>
+            <div className="bg-gradient-to-r from-purple_light via-purple-400 to-pink-600 w-1/2 h-1 rounded-lg mb-6 md:mb-0"></div>
           </motion.div>
         </div>
       </div>

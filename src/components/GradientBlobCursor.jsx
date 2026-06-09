@@ -17,7 +17,7 @@ const GradientBlobCursor = () => {
   return (
     <div>
       <div
-        className="fixed z-50 pointer-events-none transform transition-all duration-100 ease-out rounded-full  blur-[100px] backdrop:blur[250px]"
+        className="fixed z-50 pointer-events-none transform transition-all duration-100 ease-out rounded-full  blur-[120px] backdrop:blur[250px]"
         style={{
           top: `${cursorPosition.y}px`,
           left: `${cursorPosition.x}px`,

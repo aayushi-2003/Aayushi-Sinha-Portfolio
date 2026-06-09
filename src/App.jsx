@@ -13,14 +13,13 @@ function App() {
     <div className="bg-site relative">
       <GradientBlobCursor/>
       <Header/>
-        <div className="gradient1 h-[238px] w-[266px] rounded-[266px] bg-[#1879D3] blur-[175px] backdrop:blur[250px] absolute top-[185px] left-[84px]"></div>
-        <div className="gradient2 h-[234px] w-[225px] rounded-[236px] bg-[#7518D3] blur-[150px] backdrop:blur[250px] absolute right-[36px] top-[372px]"></div>
+        <div className="gradient1 h-[260px] w-[260px] rounded-full bg-[#1879D3]/25 blur-[170px] absolute top-[150px] left-[6%]"></div>
         <Home />
       <Nav/>
       <About/>
-      <Projects/>
       <Experience/>
-      <Publications/>
+      <Projects/>
+      {/* <Publications/> */}
       <Contact/>
     </div>
   );

@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rajdhani:wght@300;400;500;600;700&family=Unbounded:wght@200..900&display=swap');
 body {
   margin: 0;
 }
@@ -28,7 +27,7 @@ code {
 
 .active {
   color: #f7fcff;
-  border-radius: 100%;
+  border-radius: 0.5rem;
 }
 
 .btn {
@@ -50,7 +49,7 @@ code {
     92.23deg,
     #7518D3, #031ED3
   );  
-  border-radius: 10rem;
+  border-radius: inherit;
   z-index: -2;
 }
 .btn:before{
@@ -62,7 +61,7 @@ code {
   height: 100%;
   background: #f7fcff;
   transition: all 0.3s;
-  border-radius: 10rem;
+  border-radius: inherit;
   z-index: -1;
 }
 
@@ -98,7 +97,7 @@ code {
     @apply py-16 lg:py-20 lg:h-screen flex items-center;
   }
   .btn{
-    @apply rounded-full text-light_white font-medium;
+    @apply rounded-lg text-light_white font-medium;
   }
 
   .btn-sm{

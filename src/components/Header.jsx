@@ -48,7 +48,7 @@ const Header = () => {
           <NavLinks/>
         </div>
         </div>
-      </div>
+      </div>     
         </div>
       </div>
       </header>

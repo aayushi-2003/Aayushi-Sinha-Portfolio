@@ -2,7 +2,6 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aayushi-2003.github.io/Aayushi-Sinha-Portfolio",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@react-three/drei": "^9.79.2",
@@ -12,38 +11,25 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1",
     "react-slick": "^0.30.2",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start --disableHostCheck",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
+  "browserslist": [
+    "defaults",
+    "not op_mini all"
+  ],
   "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.2",
+    "autoprefixer": "^10.5.0",
     "framer-motion": "^8.5.5",
     "gh-pages": "^5.0.0",
     "postcss-nesting": "^13.0.1",
@@ -52,6 +38,8 @@
     "react-intersection-observer": "^9.4.1",
     "react-scroll": "^1.8.9",
     "react-type-animation": "^2.1.2",
-    "tailwindcss": "^3.3.2"
+    "tailwindcss": "^3.3.2",
+    "vite": "^8.0.16",
+    "vite-plugin-svgr": "^5.2.0"
   }
 }

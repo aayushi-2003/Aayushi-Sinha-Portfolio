@@ -1,16 +1,24 @@
-import SoulFit from './SoulFit.png';
-import dreamHome from './dreamHouse.png';
-import restaurantImg from './restaurant.jpg';
-import velocityImg from './velocity.jpg';
-import LearnWave from './LW.jpeg';
-import sms from './sms-classifier.png';
-import opencv from './opencv.png'
-import phishing from './phishing.png'
-import coursemate from './coursemate.png'
-import idms from './idms.png'
+import SoulFit from '../assets/images/projects/SoulFit.png';
+import dreamHome from '../assets/images/projects/dreamHouse.png';
+import restaurantImg from '../assets/images/projects/restaurant.jpg';
+import velocityImg from '../assets/images/projects/velocity.jpg';
+import LearnWave from '../assets/images/projects/LW.jpeg';
+import sms from '../assets/images/projects/sms-classifier.png';
+import opencv from '../assets/images/projects/opencv.png';
+import phishing from '../assets/images/projects/phishing.png';
+import coursemate from '../assets/images/projects/coursemate.png';
+import tabspace from '../assets/images/projects/tabspace.png';
+import idms from '../assets/images/projects/idms.png';
 
 export const projectDetails ={
     WebDev:[
+    {title: "Tabspace", 
+    description: "An AI-powered Chrome extension for contextual note-taking, task management, and workspace organization across webpages with cloud synchronization.",
+    img: tabspace,
+    code_design_link:'https://github.com/aayushi-2003/Tabspace',
+    live_link:'https://github.com/aayushi-2003/Tabspace',
+    tools: [ "ReactJS", "Chrome Extensions API", "Supabase", "PostgreSQL", "Tailwind CSS","Gemini/Groq"]
+    },
     {title: "CourseMate", 
     description: "A course management app enabling users to efficiently manage courses with full CRUD functionality in a user-friendly interface.",
     img: coursemate,
@@ -32,15 +40,7 @@ export const projectDetails ={
     live_link:'https://beta.velocityclub.live/',
     tools: ["HTML", "TailwindCSS", "JavaScript", "Figma"]
 
-    },
-    {title: "Gericht Restaurant", 
-    description: "The landing page for a restaurant website made using ReactJS. Static website with smooth scroll and responsive design.",
-    img:   restaurantImg,
-    code_design_link:'https://aayushi-2003.github.io/Restaurant-website/',
-    live_link:'https://aayushi-2003.github.io/Restaurant-website/',
-    tools: ["CSS", "ReactJS"]
-
-    },
+    }
     ],
     UIUX:[
         {title: "SoulFit", 
