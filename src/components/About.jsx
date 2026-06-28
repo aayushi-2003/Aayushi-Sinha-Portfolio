@@ -67,15 +67,13 @@ const interests = [
   { label: 'Movies', image: movies },
 ];
 
-const focusAreas = ['Software Engineering', 'AI/ML', 'UI/UX Design'];
-
 const About = () => {
   return (
     <section id="about" className="section h-full relative overflow-hidden">
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
       <div className="absolute right-[8%] top-[16%] h-[240px] w-[240px] rounded-full bg-purple_med/10 blur-[120px]"></div>
 
-      <div className="container mx-auto grid items-center gap-8 lg:grid-cols-[0.95fr_1.05fr]">
+      <div className="container mx-auto grid items-center gap-8 max-lg:text-center lg:grid-cols-[0.95fr_1.05fr]">
         <motion.div
           variants={fadeIn('right', 0.25)}
           initial="hidden"
@@ -103,10 +101,10 @@ const About = () => {
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.3 }}
-            className="relative border-l border-white/12 pl-6"
+            className="relative border-l border-white/12 pl-6 max-lg:border-l-0 max-lg:pl-0"
           >
-            <div className="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-purple_light shadow-[0_0_24px_rgba(195,139,251,0.7)]"></div>
-            <p className="max-w-[650px] text-[15px] leading-7 tracking-wide text-blue-100/80 xl:text-base">
+            <div className="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-purple_light shadow-[0_0_24px_rgba(195,139,251,0.7)] max-lg:hidden"></div>
+            <p className="mx-auto max-w-[650px] text-[15px] leading-7 tracking-wide text-blue-100/80 xl:text-base">
               Hey there! I'm Aayushi, a Computer Science graduate from IIIT Dharwad and a passionate learner exploring the realms of{' '}
               <span className="font-heading text-blue-300">AI/ML</span>,
               <span className="font-heading text-blue-300"> Web Development</span> and{' '}
@@ -120,20 +118,6 @@ const About = () => {
             </p>
           </motion.div>
 
-          <div className="mt-8 flex flex-wrap gap-3">
-            {focusAreas.map((area, index) => (
-              <motion.span
-                key={area}
-                variants={fadeIn('up', 0.4 + index * 0.08)}
-                initial="hidden"
-                whileInView="show"
-                viewport={{ once: false, amount: 0.3 }}
-                className="border border-white/10 bg-white/[0.04] px-4 py-2 text-sm text-blue-100/80 backdrop-blur"
-              >
-                {area}
-              </motion.span>
-            ))}
-          </div>
         </motion.div>
 
         <motion.div
@@ -144,7 +128,7 @@ const About = () => {
           className="relative"
         >
           <div className="border border-white/10 bg-[#0B1236]/70 p-4 shadow-[0_24px_90px_rgba(0,0,0,0.22)] backdrop-blur-md md:p-5">
-            <div className="mb-5 flex items-end justify-between gap-4 border-b border-white/10 pb-4">
+            <div className="mb-5 flex items-end justify-between gap-4 border-b border-white/10 pb-4 max-lg:items-center">
               <div>
                 <p className="text-xs uppercase tracking-[0.24em] text-blue-100/45">Toolkit</p>
                 <h3 className="mt-2 font-heading text-[26px] font-semibold text-white">Key Skills</h3>
@@ -163,7 +147,7 @@ const About = () => {
                   className="grid gap-3 border border-white/[0.07] bg-white/[0.03] p-3 md:grid-cols-[120px_1fr] md:items-center"
                 >
                   <h4 className="font-heading text-base font-semibold text-blue-100">{group.title}</h4>
-                  <div className="flex flex-wrap gap-3">
+                  <div className="flex flex-wrap justify-center gap-3 md:justify-start">
                     {group.tools.map(({ name, Icon, image }, toolIndex) => (
                       <motion.div
                         key={name}
@@ -196,7 +180,7 @@ const About = () => {
               className="mt-5 border border-white/[0.07] bg-gradient-to-r from-white/[0.04] to-transparent p-3"
             >
               <h4 className="mb-3 font-heading text-base font-semibold text-white">Beyond Code I Love</h4>
-              <div className="flex flex-wrap gap-3">
+              <div className="flex flex-wrap justify-center gap-3 md:justify-start">
                 {interests.map(({ label, Icon, image }, index) => (
                   <motion.div
                     key={label}

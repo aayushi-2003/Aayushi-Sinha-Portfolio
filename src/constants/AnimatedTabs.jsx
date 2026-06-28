@@ -13,7 +13,7 @@ export default function AnimatedTabs() {
 
   return (
     <>
-      <div className="flex flex-wrap items-center gap-5">
+      <div className="flex flex-wrap items-center justify-center gap-5 md:justify-start">
         {tabs.map((tab) => (
           <button
             key={tab.id}
@@ -34,7 +34,7 @@ export default function AnimatedTabs() {
         ))}
       </div>
 
-      <div className="mt-7 w-full">
+      <div className="mt-7 flex w-full justify-center md:block">
         {activeTab === 'web development' ? (
           <ProjectCards projectSub="WebDev" />
         ) : activeTab === 'ui/ux' ? (

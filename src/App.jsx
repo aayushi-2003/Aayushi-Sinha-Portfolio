@@ -10,7 +10,7 @@ import GradientBlobCursor from './components/GradientBlobCursor';
 
 function App() {
   return (
-    <div className="bg-site relative">
+    <div className="site-shell relative pt-[72px] md:pt-0">
       <GradientBlobCursor/>
       <Header/>
         <div className="gradient1 h-[260px] w-[260px] rounded-full bg-[#1879D3]/25 blur-[170px] absolute top-[150px] left-[6%]"></div>

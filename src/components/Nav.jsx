@@ -63,8 +63,11 @@ const Nav = () => {
                 smooth={true}
                 duration={500}
                 className={`cursor-pointer w-[30px] lg:w-[50px] h-[30px] lg:h-[50px] flex items-center justify-center relative group ${
-                  activeSection === to ? 'active' : ''
+                  activeSection === to
+                    ? 'active'
+                    : ''
                 }`}
+                aria-label={label}
               >
                 <Icon className="text-[24px] transition-transform duration-300 group-hover:translate-y-[-5px]" />
                 <span className="text-[12px] absolute bottom-[-20px] transition-transform duration-300 group-hover:translate-y-[-10px] opacity-0 group-hover:opacity-100">

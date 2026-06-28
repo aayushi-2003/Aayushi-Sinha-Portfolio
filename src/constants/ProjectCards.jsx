@@ -8,7 +8,7 @@ export default function ProjectCards({ projectSub }) {
   const sub = projectSub;
 
   return (
-    <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+    <div className="mx-auto grid w-full max-w-[390px] grid-cols-1 justify-items-center gap-6 md:max-w-none md:grid-cols-2 lg:grid-cols-3">
       {projectDetails[sub].map((project, i) => (
         <motion.article
           key={project.title}
@@ -17,7 +17,7 @@ export default function ProjectCards({ projectSub }) {
           viewport={{ once: false, amount: 0.28 }}
           transition={{ delay: i * 0.08 }}
           whileHover={{ y: -6 }}
-          className="group overflow-hidden rounded-lg border border-white/10 bg-white/[0.045] p-3 shadow-[0_18px_55px_rgba(0,0,0,0.18)] backdrop-blur-md transition-colors hover:border-purple_light/30"
+          className="group w-full max-w-[360px] overflow-hidden rounded-lg border border-white/10 bg-white/[0.045] p-3 shadow-[0_18px_55px_rgba(0,0,0,0.18)] backdrop-blur-md transition-colors hover:border-purple_light/30"
         >
           <div className="relative h-[160px] overflow-hidden rounded-lg bg-site/70">
             <img
@@ -28,12 +28,12 @@ export default function ProjectCards({ projectSub }) {
             <div className="absolute inset-0 bg-gradient-to-t from-[#050820]/35 via-transparent to-transparent"></div>
           </div>
 
-          <div className="px-2 pb-1 pt-4">
+          <div className="px-2 pb-1 pt-4 flex flex-col items-center md:items-start">
             <h3 className="font-heading text-[22px] font-semibold leading-tight text-white">
               {project.title}
             </h3>
 
-            <p className="mt-3 text-[13px] leading-5 text-blue-100/68">{project.description}</p>
+            <p className="mt-3 text-[13px] leading-5 text-blue-100/68 text-center md:text-left">{project.description}</p>
 
             <ul className="mt-3 flex flex-wrap gap-2">
               {project.tools.map((tool) => (

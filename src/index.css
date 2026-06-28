@@ -3,6 +3,7 @@
 @tailwind utilities;
 body {
   margin: 0;
+  background: #050715;
 }
 
 @media screen and (max-width: 500px) {
@@ -85,6 +86,13 @@ code {
 .carousel-container {
   max-width: 1200px; 
   margin: 0 auto;
+}
+
+.site-shell {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.035), transparent 28rem),
+    linear-gradient(180deg, #050715 0%, #070a1c 48%, #050715 100%);
 }
 
 

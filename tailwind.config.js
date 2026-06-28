@@ -13,7 +13,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        site: '#070A1E',
+        site: '#050715',
         blue_med: '#3e62e7',
         light_white: '#f7fcff',
         purple_light: '#C38BFB',

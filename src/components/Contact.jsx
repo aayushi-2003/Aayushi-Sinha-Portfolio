@@ -17,7 +17,7 @@ const Contact = () => {
       <div className="absolute right-[10%] top-[18%] h-[240px] w-[240px] rounded-full bg-purple_med/10 blur-[120px]"></div>
 
       <div className="container mx-auto">
-        <div className="grid gap-8 md:grid-cols-[0.95fr_1.05fr] md:items-center">
+        <div className="grid gap-8 text-center md:grid-cols-[0.95fr_1.05fr] md:items-center md:text-left">
           <motion.div
             variants={fadeIn('right', 0.3)}
             initial="hidden"
@@ -33,7 +33,7 @@ const Contact = () => {
                 Let's work together
               </h2>
 
-              <div className="mt-6 flex gap-3">
+              <div className="mt-6 flex justify-center gap-3 md:justify-start">
                 <a href="https://github.com/aayushi-2003" target="_blank" rel="noreferrer" aria-label="GitHub">
                   <BiLogoGithub className="h-8 w-8 text-sky-400 transition-colors hover:text-purple_light md:h-10 md:w-10" />
                 </a>
@@ -51,12 +51,12 @@ const Contact = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="border border-white/10 bg-[#0B1236]/70 p-5 shadow-[0_24px_90px_rgba(0,0,0,0.22)] backdrop-blur-md md:p-7"
           >
-            <div className="mb-6 flex h-12 w-12 items-center justify-center border border-purple_light/30 bg-purple_light/10 text-purple_light">
+            <div className="mx-auto mb-6 flex h-12 w-12 items-center justify-center border border-purple_light/30 bg-purple_light/10 text-purple_light md:mx-0">
               <MdOutlineMail className="h-6 w-6" />
             </div>
             <h3 className="font-heading text-[26px] font-semibold text-white">Start a conversation</h3>
 
-            <div className="mt-7 flex flex-col gap-4 sm:flex-row sm:items-center">
+            <div className="mt-7 flex flex-col items-center md:items-start gap-4 sm:justify-center md:justify-start">
               <a href={gmailURL} target="_blank" rel="noreferrer">
                 <button className="btn h-[48px] px-8 text-base">Open Gmail</button>
               </a>

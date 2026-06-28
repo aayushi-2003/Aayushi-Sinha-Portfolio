@@ -9,14 +9,14 @@ const Projects = () => {
       <div className="absolute left-[8%] top-[12%] h-[220px] w-[220px] rounded-full bg-blue_med/10 blur-[120px]"></div>
       <div className="absolute right-[8%] bottom-[8%] h-[220px] w-[220px] rounded-full bg-purple_med/10 blur-[120px]"></div>
 
-      <div className="container mx-auto">
+      <div className="container mx-auto max-md:px-6">
         <div className="mb-7">
           <motion.div
             variants={fadeIn('right', 0.25)}
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.3 }}
-            className="max-w-2xl"
+            className="mx-auto max-w-2xl text-center md:mx-0 md:text-left"
           >
             <p className="mb-2 text-xs font-semibold uppercase tracking-[0.3em] text-purple_light/80">
               Selected Work

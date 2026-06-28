@@ -17,12 +17,12 @@ const GradientBlobCursor = () => {
   return (
     <div>
       <div
-        className="fixed z-50 pointer-events-none transform transition-all duration-100 ease-out rounded-full  blur-[120px] backdrop:blur[250px]"
+        className="fixed z-50 pointer-events-none transform transition-all duration-100 ease-out rounded-full  blur-[80px] backdrop:blur[250px]"
         style={{
           top: `${cursorPosition.y}px`,
           left: `${cursorPosition.x}px`,
-          width: "100px", 
-          height: "100px",
+          width: "60px", 
+          height: "60px",
           background: "linear-gradient(45deg, #ff6ec7, #ff99cc, #66ccff, #00b3b3)",
           backgroundSize: "400% 400%",
           transform: "translate(-50%, -50%)",
