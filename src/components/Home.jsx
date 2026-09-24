@@ -6,7 +6,7 @@ import { AiOutlineRight } from 'react-icons/ai';
 import Aayushi from '../assets/images/profile/Aayushi-full.jpg';
 
 const Home = () => {
-  const resumeURL = 'https://drive.google.com/file/d/15-9aEtt0JkMqWo-9TNPqBgV5UzJbvWXf/view?usp=sharing';
+  const resumeURL = 'https://drive.google.com/file/d/1s_qN2FL6sTOTqnq970HASb2RaKPGSD7X/view?usp=sharing';
 
   return (
     <section id="home" className="relative flex min-h-[calc(100vh-84px)] items-center overflow-hidden py-8 md:py-14 lg:h-[85vh] lg:min-h-0 lg:py-0">
